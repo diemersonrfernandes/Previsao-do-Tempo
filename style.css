@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /*resertar todas as confirgurações*/
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+}
+
+body {
+  display: flex;
+  /*como os elementos vão aparecer na tela*/
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /*vh seríam pedacinhos da tela*/
+  background-image: url("https://source.unsplash.com/1600x900");
+}
+
+
+.caixa-maior {
+  background-color: #000000;
+  width: 95%;
+  /*ocupar o máximo da tela*/
+  max-width: 420px;
+  /*tamanho máximo que ele pode crescer*/
+  opacity: 0.8;
+  /*transparencia do item*/
+  padding: 20px;
+  border-radius: 25px;
+}
+
+input {
+  border: none;
+  /*borda do elemento*/
+  outline: none;
+  /*borda de quando seleciona o elemento*/
+  padding: 10px;
+  border-radius: 24px;
+  font-size: 20;
+  background-color: #7c7c7c2b;
+  color: white;
+  width: calc(100% - 100px);
+  /*Se adaptar em 90% das telas*/
+  margin-top: 10px;
+}
+
+.temperatura {
+  margin-top: 30px;
+  color: white;
+}
+
+.descricao {
+  color: white;
+  text-transform: capitalize;
+  /*primeira letra Maiscúla*/
+}
+
+.umi {
+  color: white;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  /*ação ao passar o pouse e mudar a cor*/
+  background-color: white;
+}
+
+.lupa {
+  height: 20px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 50px;
+  background-color: gray;
+  float: right;
+  /*jogar todo para direita*/
+  cursor: pointer;
+  /*maozinha ao passar o mouse*/
+  margin-top: 10px;
+}
+
+.caixa-media {
+  margin-top: 20px;
+}
+
+.caixa-menor {
+  margin-top: 20px;
+  align-items: center;
+  display: flex;
+}
